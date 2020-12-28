@@ -12,7 +12,7 @@ print('Everything is fine')
 
 import time
 while True:
-  user = api.get_user('Ameen91741779')
+  user = api.get_user('ap3des')
   f = user.followers_count
   api.update_profile(name=f'PRANAV {f} Followers')
   print(f'PRANAV {f} Followers')
